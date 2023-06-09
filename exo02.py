@@ -1,4 +1,4 @@
-class Cube:
+class Cubic:
 
     def __init__(self, side):
         self.side = side
