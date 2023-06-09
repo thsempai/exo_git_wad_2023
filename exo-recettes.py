@@ -18,9 +18,7 @@ for name in wb.sheetnames:
                 ingredients[name] = data
             else:
                 ingredients[name]["quantity"] += quantity
-        else:
-            break
-
+        
 print(ingredients)
 
 
