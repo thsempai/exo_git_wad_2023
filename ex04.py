@@ -10,7 +10,7 @@ def get_first_non_empty(workbook):
 
 Workbook.get_first_non_empty = get_first_non_empty
 
-wb = load_workbook("test.xlsx")
+wb = load_workbook("test_if3.xlsx")
 print(wb.get_first_non_empty())
 
 
